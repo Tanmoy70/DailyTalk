@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Video, Phone, Clock, MessageSquare, Star, X, Globe, Award, UserPlus, Flag } from "lucide-react";
 
+//Type definition for call history entry
 type CallHistory = {
   id: string;
   partnerName: string;
