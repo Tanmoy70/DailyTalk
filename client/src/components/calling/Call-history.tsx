@@ -63,6 +63,7 @@ const CallHistorySection = () => {
     }
   };
 
+  // Helper to get level color classes
   const getLevelColor = (level: string) => {
     switch (level) {
       case "Beginner":
