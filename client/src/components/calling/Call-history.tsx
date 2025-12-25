@@ -55,6 +55,7 @@ const dummyCallHistory: CallHistory[] = [
   },
 ];
 
+// Main Call History Section Component
 const CallHistorySection = () => {
   const [favoriteRequests, setFavoriteRequests] = useState<string[]>([]);
   const [selectedUser, setSelectedUser] = useState<CallHistory | null>(null);
