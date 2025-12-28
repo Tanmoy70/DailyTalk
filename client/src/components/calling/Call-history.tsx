@@ -211,7 +211,7 @@ const UserProfileModal = ({
     rating: (Math.random() * 2 + 3).toFixed(1),
     joined: "March 2024",
   };
-
+// Dummy user preferences data
   const userPreferences = {
     topics: ["Business", "Travel", "Culture", "Technology"],
     goals: ["Fluency", "Grammar", "Pronunciation"],
@@ -219,6 +219,7 @@ const UserProfileModal = ({
     availability: "Evenings (UTC+0)",
   };
 
+  // Dummy badges data
   const badges = [
     { emoji: "🏆", name: "Top Caller", unlocked: true },
     { emoji: "⭐", name: "5-Star", unlocked: true },
