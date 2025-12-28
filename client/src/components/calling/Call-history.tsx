@@ -254,7 +254,7 @@ const UserProfileModal = ({
               />
               <div className="absolute bottom-2 right-2 w-5 h-5 bg-green-500 border-4 border-white rounded-full"></div>
             </div>
-
+            // Profile Info
             <div className="flex-1 text-center sm:text-left">
               <h1 className="text-3xl font-bold text-gray-800 mb-2">{user.partnerName}</h1>
               <div className="flex flex-wrap gap-3 justify-center sm:justify-start items-center">
