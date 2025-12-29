@@ -12,6 +12,7 @@ type Partner = {
   isOnline?: boolean;
 };
 
+// Dummy data for favorite partners
 const dummyPartners: Partner[] = [
   {
     id: "1",
