@@ -23,6 +23,7 @@ type Room = {
   isLive: boolean;
 };
 
+// Dummy data for users and rooms
 const dummyUsers: User[] = [
   { id: "1", name: "Ariana", avatar: "/src/assets/images/testimonial1.png", isOnline: true, onCall: false, level: "Beginner", gender: "Female", country: "USA" },
   { id: "2", name: "David", avatar: "/src/assets/images/testimonial2.png", isOnline: true, onCall: true, level: "Intermediate", gender: "Male", country: "India" },
