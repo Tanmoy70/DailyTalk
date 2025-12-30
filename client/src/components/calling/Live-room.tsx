@@ -31,6 +31,7 @@ const dummyUsers: User[] = [
   { id: "4", name: "Carlos", avatar: "/src/assets/images/testimonial1.png", isOnline: true, onCall: false, level: "Intermediate", gender: "Male", country: "Spain" },
 ];
 
+// Dummy data for rooms
 const dummyRooms: Room[] = [
   { id: "r1", name: "Daily English Practice", host: "Michael", participants: 8, maxParticipants: 15, level: "Beginner", topic: "Basic Conversation", isLive: true },
   { id: "r2", name: "Business English Hub", host: "Sarah", participants: 12, maxParticipants: 20, level: "Advanced", topic: "Professional Communication", isLive: true },
