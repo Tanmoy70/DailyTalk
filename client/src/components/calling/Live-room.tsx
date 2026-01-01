@@ -39,6 +39,7 @@ const dummyRooms: Room[] = [
   { id: "r4", name: "Movie Discussion Club", host: "Emma", participants: 15, maxParticipants: 25, level: "Mixed", topic: "Entertainment & Culture", isLive: true },
 ];
 
+// Main component
 const LiveRoomsSection = () => {
   const [showCreateRoom, setShowCreateRoom] = useState(false);
   const [selectedUsers, setSelectedUsers] = useState<string[]>([]);
