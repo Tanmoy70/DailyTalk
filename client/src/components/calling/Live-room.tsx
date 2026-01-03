@@ -66,6 +66,7 @@ const LiveRoomsSection = () => {
     );
   };
 
+  // Helper to get level color classes
   const getLevelColor = (level: string) => {
     switch (level) {
       case "Beginner": return "bg-green-100 text-green-700";
