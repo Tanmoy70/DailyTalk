@@ -8,8 +8,7 @@ const AppContent = () => {
   const showLayout = location.pathname === '/';
 
   return (
-    <>  
-    // Reset form fields after creating a room
+    <>
       {showLayout && <Navbar />}
       <AppRoutes />
       {showLayout && <Footer />}
