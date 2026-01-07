@@ -1,5 +1,6 @@
 import { Video, Phone, Crown, Heart, MessageCircle, Star, Globe } from "lucide-react";
 
+// Define Partner type
 type Partner = {
   id: string;
   name: string;
