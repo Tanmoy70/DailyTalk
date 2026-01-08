@@ -93,7 +93,6 @@ const LiveRoomsSection = () => {
         </button>
       </div>
   
-      // Create Room Section
       {showCreateRoom && (
         <div className="mb-6 bg-white rounded-3xl shadow-xl p-6 border-2 border-purple-200">
           <h3 className="text-xl font-bold text-gray-800 mb-4">Create Your Own Room</h3>
