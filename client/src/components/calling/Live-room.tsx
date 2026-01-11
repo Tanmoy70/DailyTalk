@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Plus, User as UserIcon, MessageCircle } from "lucide-react";
 
+// User type definition
 type User = {
   id: string;
   name: string;
@@ -12,6 +13,7 @@ type User = {
   country: string;
 };
 
+// Room type definition
 type Room = {
   id: string;
   name: string;
