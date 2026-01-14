@@ -30,7 +30,7 @@ export const refreshAccessToken = async (): Promise<boolean> => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ refreshToken: refreshToken }), // Changed from refresh_token
+      body: JSON.stringify({ refreshToken: refreshToken }), 
     });
 
     const data = await response.json();
