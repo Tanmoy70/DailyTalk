@@ -52,7 +52,6 @@ const LiveRoomsSection = () => {
     console.log("Joining room:", roomId);
   };
 
-  // Handle room creation
   const handleCreateRoom = () => {
     if (roomName && selectedUsers.length > 0) {
       console.log("Creating room:", { roomName, roomTopic, users: selectedUsers });
