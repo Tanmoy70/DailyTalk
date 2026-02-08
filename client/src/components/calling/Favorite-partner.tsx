@@ -50,6 +50,7 @@ const dummyPartners: Partner[] = [
   },
 ];
 
+// Main component
 const FavoritePracticePartnerSection = () => {
   const currentUserIsPremium = true;
 
