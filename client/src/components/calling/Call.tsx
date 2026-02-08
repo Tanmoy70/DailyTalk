@@ -18,6 +18,7 @@ const Call = () => {
 
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
 
+  // Navigation items for the sidebar
   const navItems = [
     { id: "call" as const, label: "Talk with Strangers", icon: PhoneCall },
     { id: "chat" as const, label: "Chat with Strangers", icon: MessageCircle },
