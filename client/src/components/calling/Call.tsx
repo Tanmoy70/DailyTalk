@@ -29,6 +29,7 @@ const Call = () => {
     { id: "profile" as const, label: "Profile", icon: UserIcon },
   ];
 
+  // Theme options for the theme toggle section
   const themeOptions = [
     { value: "light" as const, icon: Sun, label: "Light" },
     { value: "dark" as const, icon: Moon, label: "Dark" },
